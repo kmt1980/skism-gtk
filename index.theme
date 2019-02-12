@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Skism
+Comment=Skism
+Encoding=UTF-8
+
+
+[X-GNOME-Metatheme]
+GtkTheme=Skism
+MetacityTheme=Skism
+IconTheme=Breeze-Dark
+CursorTheme=DMZ-Black
+ButtonLayout=menu:minimize,maximize,close
