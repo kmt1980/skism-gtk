@@ -1,0 +1,14 @@
+@import url("colors.css");
+
+
+.background 
+    {
+        color: @window_text_main;
+        background-color: @window_bg_main;
+    }
+    
+.view
+    {
+        color: @window_text_main;
+        background-color: @window_bg_alt;
+    }

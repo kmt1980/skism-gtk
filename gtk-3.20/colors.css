@@ -1,0 +1,10 @@
+
+
+/**********************
+ *  Main theme colors *
+ **********************/
+
+@define-color window_bg_main #08090a;
+@define-color window_bg_alt #101113;
+
+@define-color window_text_main #d6d6d6;
