@@ -1,0 +1,49 @@
+@import url("colors.css");
+
+button
+    {
+        padding: 8px 6px;
+        background-color: @btn_bg_normal;
+        color: @button_text_normal;
+    }
+    
+button:hover
+    {
+        background-color: @btn_bg_hover;
+        color: @btn_text_hover;
+    }
+    
+button:active
+    {
+        background-color: @btn_bg_pressed;
+        color: @btn_text_pressed
+    }
+    
+button:checked
+    {
+        background-color: @btn_bg_toggled;
+        color: @btn_text_toggled;
+    }
+    
+button:checked:hover
+    {
+        background-color: @btn_bg_toggledhover;
+    }
+    
+button:disabled
+    {
+        background-color: @btn_bg_disabled;
+        color: @btn_text_disabled;
+    }
+    
+
+    
+notebook > header > tabs > arrow:hover
+{ background-color: #ff00ff; }
+
+.inline-toolbar toolbutton > button
+{ background-color: #ff00ff; }
+
+
+
+

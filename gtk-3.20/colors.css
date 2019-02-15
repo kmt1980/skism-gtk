@@ -8,3 +8,43 @@
 @define-color window_bg_alt #101113;
 
 @define-color window_text_main #d6d6d6;
+@define-color error_bg_main #ff1234;
+
+
+/*********************
+ *  Selection colors *
+ *********************/
+
+@define-color band_select_main rgba(58,127,255,0.08);
+@define-color band_select_border #3a7fff;
+
+
+/******************
+ *  Button colors *
+ ******************/
+
+@define-color btn_bg_normal #282a2e;
+@define-color btn_bg_hover #5a5c60;
+@define-color btn_bg_pressed #3a7fff;
+@define-color btn_bg_toggled #3a7fff;
+@define-color btn_bg_toggledhover #49a6ff;
+@define-color btn_bg_disabled #17181c;
+
+@define-color btnflat_bg_normal @btn_bg_normal;
+
+@define-color btn_header_bg_normal transparent;
+@define-color btn_header_bg_hover rgba(255,255,255,0.12);
+@define-color btn_header_bg_pressed @btn_bg_pressed;
+@define-color btn_header_bg_toggled @btn_bg_toggled;
+@define-color btn_header_bg_toggledhover @btn_bg_toggledhover;
+
+/* Min, max and close window decoration colors */
+@define-color btn_mmc_bg_normal transparent;
+@define-color btn_mmc_bg_hover @btn_header_bg_hover;
+@define-color btn_mmc_bg_pressed rgba(255,255,255,0.24);
+
+@define-color btn_text_normal #d6d6d6;
+@define-color btn_text_hover #f6f6f6;
+@define-color btn_text_pressed #ffffff;
+@define-color btn_text_toggled #ffffff;
+@define-color btn_text_disabled #767676;
