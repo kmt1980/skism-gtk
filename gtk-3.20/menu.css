@@ -1,0 +1,66 @@
+@import url("colors.css");
+
+menubar,
+.menubar 
+    {
+        -GtkWidget-window-dragging: true;
+        padding: 0;        
+        background-color: @menubar_bg;
+        color: text_normal;
+    }
+    
+menubar > menuitem,
+.menubar > menuitem
+    {
+        padding: 8px 6px;
+    }
+    
+menubar > menuitem:hover,
+.menubar > menuitem:hover
+    {
+        background-color: @menubar_bg_toggled;
+        color: #ffffff;
+    }
+    
+menubar > menuitem:disabled,
+.menubar > menuitem:disabled
+    {
+        color: @text_disabled;
+    }
+
+menu,
+.menu
+    {
+        background-color: @menu_bg;
+        color: @text_normal;
+        padding: 0;
+    }
+    
+menu menuitem,
+.menu menuitem
+    {
+        padding: 8px 6px;
+    }
+    
+menu menuitem:hover,
+.menu menuitem:hover
+    {
+        background-color: @menu_item_hover;
+        color: @text_hover;
+    }
+ 
+menu menuitem:disabled,
+.menu menuitem:disabled
+    {
+        color: @text_disabled;
+    }
+    
+    
+menu separator
+    {
+        color: @menu_separator;
+        margin-top: 3px;
+        margin-bottom: 3px;
+    }
+    
+

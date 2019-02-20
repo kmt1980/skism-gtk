@@ -2,6 +2,7 @@
 
 decoration 
     {
+        background-color: @window_bg_main;
         padding: 0;
     }
 

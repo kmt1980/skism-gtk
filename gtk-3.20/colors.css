@@ -6,9 +6,16 @@
 
 @define-color window_bg_main #08090a;
 @define-color window_bg_alt #101113;
-
-@define-color window_text_main #d6d6d6;
 @define-color error_bg_main #ff1234;
+
+@define-color text_normal #d6d6d6;
+@define-color text_focus #e6e6e6;
+@define-color text_hover #f6f6f6;
+@define-color text_disabled #767676;
+
+@define-color border_normal #1e2024;
+@define-color border_focus #787a7e;
+@define-color border_disabled #17181c;
 
 
 /*********************
@@ -48,3 +55,14 @@
 @define-color btn_text_pressed #ffffff;
 @define-color btn_text_toggled #ffffff;
 @define-color btn_text_disabled #767676;
+
+/****************
+ *  Menu colors *
+ ****************/
+
+@define-color menu_bg rgba(30,32,36,1);
+@define-color menu_separator rgba(60,61,62,.93);
+@define-color menu_item_hover rgba(154,156,160,.21);
+@define-color menubar_bg @window_bg_main;
+@define-color menubar_bg_toggled #3a7fff;
+

@@ -1,6 +1,9 @@
 @import url("colors.css");
 @import url("buttons.css");
 @import url("header.css");
+@import url("entry.css");
+@import url("check-radio/check-radio.css");
+@import url("menu.css");
 
 *
     {
@@ -24,11 +27,12 @@
         -GtkDialog-action-area-border: 0;
         -GtkStatusbar-shadow-type: none;
         outline-width: 0px;
+        text-shadow: none;
     }
 
 .background 
     {
-        color: @window_text_main;
+        color: @text_normal;
         background-color: @window_bg_main;
     }
 
@@ -37,7 +41,7 @@
 .vew text,
 textview text
     {
-        color: @window_text_main;
+        color: @text_normal;
         background-color: @window_bg_alt;
     }
 
