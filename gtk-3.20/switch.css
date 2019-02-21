@@ -1,0 +1,53 @@
+@import url("colors.css");
+
+switch 
+    {
+        margin: 2px;
+        font-weight: bold;
+        min-width: 48px;
+        min-height: 24px;
+        color: transparent;
+        background-color: @switch_base_off;
+    }    
+ 
+switch:checked 
+    {
+    background-color: @switch_base_on;
+    color: transparent;
+    }
+          
+switch:disabled
+    {
+        background-color: @switch_base_disabled;
+    }
+      
+switch slider 
+    {
+        min-width: 22px;
+        min-height: 22px;
+        background-clip: content-box;
+        border: 4px solid transparent;
+        background-color: @slider_off;
+    }
+    
+switch:hover slider
+    {
+        background-color: @slider_off_hover;
+    }
+    
+switch:checked slider
+    {
+        background-color: @slider_on;
+    }
+    
+switch:checked:hover slider
+    {
+        background-color: @slider_on_hover;
+    }
+      
+switch:disabled slider 
+    {
+        background-color: @slider_disabled;         
+    }
+  
+

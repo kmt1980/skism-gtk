@@ -8,7 +8,9 @@
 @define-color window_bg_alt #101113;
 @define-color error_bg_main #ff1234;
 
+
 @define-color text_normal #d6d6d6;
+@define-color text_dimmed #a6a6a6;
 @define-color text_focus #e6e6e6;
 @define-color text_hover #f6f6f6;
 @define-color text_disabled #767676;
@@ -24,6 +26,8 @@
 
 @define-color band_select_main rgba(58,127,255,0.08);
 @define-color band_select_border #3a7fff;
+@define-color selection_bg_main #3a7fff;
+@define-color selection_bg_alt #5a5c60;
 
 
 /******************
@@ -56,6 +60,19 @@
 @define-color btn_text_toggled #ffffff;
 @define-color btn_text_disabled #767676;
 
+/*****************
+ * Switch colors *
+ *****************/
+
+@define-color switch_base_off #1e2024;
+@define-color switch_base_on #3a7fff;
+@define-color switch_base_disabled #0f1014;
+@define-color slider_off #34363a;
+@define-color slider_on #d6d6d6;
+@define-color slider_off_hover #484a4e;
+@define-color slider_on_hover #f6f6f6;
+@define-color slider_disabled #222428;
+
 /****************
  *  Menu colors *
  ****************/
@@ -65,4 +82,14 @@
 @define-color menu_item_hover rgba(154,156,160,.21);
 @define-color menubar_bg @window_bg_main;
 @define-color menubar_bg_toggled #3a7fff;
+
+/**************
+ * Tab colors *
+ **************/
+
+@define-color tab_active #3a7fff;
+@define-color tab_hover #383a3e;
+@define-color tab_toggledhover #49a6ff;
+@define-color tab_view_bg #0a0b0d;
+@define-color tab_view_border #1e2024;
 

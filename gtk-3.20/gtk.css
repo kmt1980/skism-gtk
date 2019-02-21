@@ -2,8 +2,11 @@
 @import url("buttons.css");
 @import url("header.css");
 @import url("entry.css");
-@import url("check-radio/check-radio.css");
+@import url("check-radio.css");
 @import url("menu.css");
+@import url("combo.css");
+@import url("switch.css");
+@import url("tab.css");
 
 *
     {
@@ -53,6 +56,38 @@ treeview.view rubberband
     {
         background-color: @band_select_main;
         border: 1px solid @band_select_border;
+    }
+    
+/*************
+ * Selection *
+ *************/
+  
+.view text:selected:focus, textview text:selected:focus,  
+.view text:selected, 
+textview text:selected, 
+.view text selection:focus, 
+.view text selection, textview text selection:focus,
+textview text selection, 
+flowbox flowboxchild:selected, 
+spinbutton:not(.vertical) selection:focus, 
+spinbutton:not(.vertical) selection,entry selection:focus,
+entry selection, 
+row:selected, .sidebar:selected
+    {
+        background-color: @selection_bg_main;
+        color: #ffffff;
+    }
+     
+.view:selected:focus
+    { 
+        background-color: @selection_bg_alt;
+        color: #ffffff;        
+    }
+    
+.view:selected
+    { 
+        background-color: @menu_item_hover;
+        color: #ffffff;
     }
     
 

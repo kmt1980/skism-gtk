@@ -36,6 +36,16 @@ menu,
         padding: 0;
     }
     
+popover.background
+    {
+        padding: 0;
+        background-color: @menu_bg; 
+        box-shadow: 2px 2px 8px #000000;
+        color: @text_normal;
+    }
+    
+
+    
 menu menuitem,
 .menu menuitem
     {
@@ -56,11 +66,14 @@ menu menuitem:disabled,
     }
     
     
-menu separator
+menu separator,
+.menu separator
     {
         color: @menu_separator;
         margin-top: 3px;
         margin-bottom: 3px;
     }
+
+
     
 
