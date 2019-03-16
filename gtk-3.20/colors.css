@@ -106,3 +106,11 @@
 @define-color slider_handle_active #f6f6f6;
 @define-color slider_handle_disabled @slider_scale_disabled;
 
+/***************
+ * Progressbar *
+ ***************/
+
+@define-color progress_trough @slider_trough;
+@define-color progress_active @slide_scale_active;
+
+

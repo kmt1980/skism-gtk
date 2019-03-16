@@ -1,0 +1,34 @@
+@import url("colors.css");
+
+progressbar 
+    {
+        color: @text_normal; 
+    }
+    
+progressbar.horizontal trough,
+progressbar.horizontal progress 
+    {
+        min-height: 4px;        
+    }
+    
+progressbar.vertical trough,
+progressbar.vertical progress 
+    {
+        min-width: 4px; 
+    }
+    
+progressbar trough 
+    {
+        background-color: @progress_trough; 
+    }
+    
+progressbar progress 
+    {
+        background-color: @slider_scale_active;
+        box-shadow: none; 
+    }
+    
+treeview.view.progressbar
+    {
+        background-color: #ff0000;
+    }
