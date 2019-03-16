@@ -111,6 +111,11 @@
  ***************/
 
 @define-color progress_trough @slider_trough;
-@define-color progress_active @slide_scale_active;
+@define-color progress_active @slider_scale_active;
+@define-color levelbar_trough transparent;
+@define-color levelbar_empty @slider_trough;
+@define-color levelbar_active @slider_scale_active;
+@define-color levelbar_low #ff1234;
+@define-color levelbar_high #18d586;
 
 

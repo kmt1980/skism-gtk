@@ -27,8 +27,60 @@ progressbar progress
         background-color: @slider_scale_active;
         box-shadow: none; 
     }
-    
-treeview.view.progressbar
+ 
+/*************
+ * Level Bar *
+ *************/
+
+levelbar block
     {
-        background-color: #ff0000;
+        min-width: 32px;
+        min-height: 4px;
     }
+    
+levelbar.vertical block
+    {
+        min-width: 4px;
+        min-height: 32px;
+    }
+    
+levelbar trough 
+    { 
+        background-color: @levelbar_trough; 
+    }
+    
+levelbar.horizontal.discrete block 
+    {
+        margin: 0 1px; 
+    }
+    
+levelbar.vertical.discrete block 
+    {
+        margin: 1px 0; 
+    }
+    
+levelbar block.empty
+    {
+        background-color:  @levelbar_empty;
+    }
+    
+levelbar block:not(.empty) 
+    {
+        background-color: @levelbar_active;
+    }
+  
+levelbar block.low 
+    {
+        background-color: @levelbar_low; 
+    }
+    
+levelbar block.high
+    {
+        background-color: @levelbar_high;
+    }
+    
+levelbar block.full 
+    {
+        background-color: @levelbar_high;
+    }
+    
