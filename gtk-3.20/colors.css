@@ -93,3 +93,16 @@
 @define-color tab_view_bg #0a0b0d;
 @define-color tab_view_border #1e2024;
 
+/*****************
+ * Slider colors *
+ *****************/
+
+@define-color slider_trough #1e2024;
+@define-color slider_trough_disabled #0f1014;
+@define-color slider_scale_active #3a7fff;
+@define-color slider_scale_disabled #1e1f23;
+@define-color slider_handle_normal #d6d6d6;
+@define-color slider_handle_hover #ffffff;
+@define-color slider_handle_active #f6f6f6;
+@define-color slider_handle_disabled @slider_scale_disabled;
+

@@ -7,6 +7,8 @@
 @import url("combo.css");
 @import url("switch.css");
 @import url("tab.css");
+@import url("list.css");
+@import url("slider.css");
 
 *
     {
@@ -72,7 +74,7 @@ flowbox flowboxchild:selected,
 spinbutton:not(.vertical) selection:focus, 
 spinbutton:not(.vertical) selection,entry selection:focus,
 entry selection, 
-row:selected, .sidebar:selected
+.sidebar:selected
     {
         background-color: @selection_bg_main;
         color: #ffffff;
@@ -87,6 +89,12 @@ row:selected, .sidebar:selected
 .view:selected
     { 
         background-color: @menu_item_hover;
+        color: #ffffff;
+    }
+    
+row:selected
+    {
+        background-color: @btn_bg_hover;
         color: #ffffff;
     }
     
