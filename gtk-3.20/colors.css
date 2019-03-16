@@ -118,4 +118,14 @@
 @define-color levelbar_low #ff1234;
 @define-color levelbar_high #18d586;
 
+/*************
+ * Scrollbar *
+ *************/
+
+@define-color scrollbar_trough transparent;
+@define-color scrollbar_slider_indicator rgba(255,255,255,.03);
+@define-color scrollbar_slider_normal #46484d;
+@define-color scrollbar_slider_hover #64666b;
+@define-color scrollbar_slider_active #7c7e82;
+
 

@@ -10,6 +10,7 @@
 @import url("list.css");
 @import url("slider.css");
 @import url("progress.css");
+@import url("scrollbar.css");
 
 *
     {
@@ -41,14 +42,19 @@
         color: @text_normal;
         background-color: @window_bg_main;
     }
-
     
 .view,
 .vew text,
 textview text
     {
         color: @text_normal;
-        background-color: @window_bg_alt;
+        border: 1px solid @tab_view_border;
+        background-color: @tab_view_bg;
+    }
+    
+treeview.view .view
+    {
+        border: none;
     }
 
     
@@ -61,6 +67,7 @@ treeview.view rubberband
         border: 1px solid @band_select_border;
     }
     
+  
 /*************
  * Selection *
  *************/
