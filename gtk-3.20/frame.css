@@ -1,0 +1,25 @@
+@import url("colors.css");
+
+.frame
+    {
+        border: 1px solid @tab_view_border;
+         
+    }
+    
+frame 
+    {
+        border: 1px solid @tab_view_border;
+    }
+    
+frame .frame 
+    { 
+        border: none; 
+    }
+    
+notebook.frame 
+    { 
+        border: none; 
+    }
+    
+
+

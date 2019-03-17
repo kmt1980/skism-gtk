@@ -11,6 +11,8 @@
 @import url("slider.css");
 @import url("progress.css");
 @import url("scrollbar.css");
+@import url("treeview.css");
+@import url("frame.css");
 
 *
     {
@@ -48,14 +50,12 @@
 textview text
     {
         color: @text_normal;
-        border: 1px solid @tab_view_border;
         background-color: @tab_view_bg;
+        
     }
     
-treeview.view .view
-    {
-        border: none;
-    }
+
+
 
     
 .rubberband,

@@ -128,4 +128,17 @@
 @define-color scrollbar_slider_hover #64666b;
 @define-color scrollbar_slider_active #7c7e82;
 
+/************
+ * Treeview *
+ ************/
+
+@define-color treeview_header #222428;
+@define-color treeview_header_hover @btn_bg_hover;
+@define-color treeview_header_active @btn_bg_hover;
+@define-color treeview_header-disabled @btn_bg_disabled;
+@define-color treeview_bg #0a0b0d;
+@define-color treeview_tree #2c2e32;
+@define-color treeview_selected @menu_item_hover;
+@define-color treeview_disabled @btn_bg_disabled;
+
 
