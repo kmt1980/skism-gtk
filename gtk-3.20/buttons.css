@@ -2,20 +2,23 @@
 
 button
     {
-        margin: 0;
-        padding: 8px 6px;
+        margin-right: 1px;
+        padding: 4px 2px;
         background-color: @btn_bg_normal;
+        border: 1px solid transparent;
         color: @button_text_normal;
     }
     
 button:hover
     {
-        background-color: @btn_bg_hover;
+        background-color: @btn_bg_normal;
+        border: 1px solid @btn_bg_hover;
         color: @btn_text_hover;
     }
     
 button:active
     {
+        border-color: @btn_bg_pressed;
         background-color: @btn_bg_pressed;
         color: @btn_text_pressed
     }
@@ -24,6 +27,7 @@ button:checked
     {
         background-color: @btn_bg_toggled;
         color: @btn_text_toggled;
+        font-weight: bold;
     }
     
 button:checked:hover

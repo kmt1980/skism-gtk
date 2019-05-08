@@ -4,19 +4,19 @@
  *  Main theme colors *
  **********************/
 
-@define-color window_bg_main #08090a;
-@define-color window_bg_alt #101113;
+@define-color window_bg_main #0c0d0f;
+@define-color window_bg_alt #131416;
 @define-color error_bg_main #ff1234;
 
 
 @define-color text_normal #d6d6d6;
 @define-color text_dimmed #a6a6a6;
 @define-color text_focus #e6e6e6;
-@define-color text_hover #f6f6f6;
+@define-color text_hover #ffffff;
 @define-color text_disabled #767676;
 
 @define-color border_normal #1e2024;
-@define-color border_focus #787a7e;
+@define-color border_focus #aaacb0;
 @define-color border_disabled #17181c;
 
 
@@ -24,9 +24,9 @@
  *  Selection colors *
  *********************/
 
-@define-color band_select_main rgba(58,127,255,0.08);
-@define-color band_select_border #3a7fff;
-@define-color selection_bg_main #3a7fff;
+@define-color band_select_main rgba(0,180,120,0.08);
+@define-color band_select_border #00b478;
+@define-color selection_bg_main #00b478;
 @define-color selection_bg_alt #5a5c60;
 
 
@@ -35,10 +35,10 @@
  ******************/
 
 @define-color btn_bg_normal #282a2e;
-@define-color btn_bg_hover #5a5c60;
-@define-color btn_bg_pressed #3a7fff;
-@define-color btn_bg_toggled #3a7fff;
-@define-color btn_bg_toggledhover #49a6ff;
+@define-color btn_bg_hover #18eda0;
+@define-color btn_bg_pressed #00b478;
+@define-color btn_bg_toggled #00b478;
+@define-color btn_bg_toggledhover #18eda0;
 @define-color btn_bg_disabled #17181c;
 
 @define-color btnflat_bg_normal @btn_bg_normal;
@@ -60,15 +60,24 @@
 @define-color btn_text_toggled #ffffff;
 @define-color btn_text_disabled #767676;
 
+/****************
+ *  Combo Boxes *
+ ****************/
+@define-color combo_bg_normal #282a2e;
+@define-color combo_bg_hover #00b478;
+@define-color combo_bg_pressed #00b478;
+@define-color combo_bg_toggled #00b478;
+@define-color combo_bg_disabled #17181c;
+
 /*****************
  * Switch colors *
  *****************/
 
 @define-color switch_base_off #1e2024;
-@define-color switch_base_on #3a7fff;
+@define-color switch_base_on #18eda0;
 @define-color switch_base_disabled #0f1014;
 @define-color slider_off #34363a;
-@define-color slider_on #d6d6d6;
+@define-color slider_on #ffffff;
 @define-color slider_off_hover #484a4e;
 @define-color slider_on_hover #f6f6f6;
 @define-color slider_disabled #222428;
@@ -79,7 +88,7 @@
 
 @define-color menu_bg rgba(30,32,36,1);
 @define-color menu_separator rgba(60,61,62,.93);
-@define-color menu_item_hover rgba(154,156,160,.21);
+@define-color menu_item_hover rgba(0,180,129,.92);
 @define-color menubar_bg @window_bg_main;
 @define-color menubar_bg_toggled #3a7fff;
 
@@ -87,10 +96,10 @@
  * Tab colors *
  **************/
 
-@define-color tab_active #3a7fff;
+@define-color tab_active #2cfab0;
 @define-color tab_hover #383a3e;
-@define-color tab_toggledhover #49a6ff;
-@define-color tab_view_bg #0a0b0d;
+@define-color tab_toggledhover #70ffd5;
+@define-color tab_view_bg #0f1012;
 @define-color tab_view_border #1e2024;
 
 /*****************
@@ -99,11 +108,11 @@
 
 @define-color slider_trough #1e2024;
 @define-color slider_trough_disabled #0f1014;
-@define-color slider_scale_active #3a7fff;
+@define-color slider_scale_active #18eda0;
 @define-color slider_scale_disabled #1e1f23;
-@define-color slider_handle_normal #d6d6d6;
-@define-color slider_handle_hover #ffffff;
-@define-color slider_handle_active #f6f6f6;
+@define-color slider_handle_normal #2cfab0;
+@define-color slider_handle_hover #70ffd5;
+@define-color slider_handle_active #70ffd5;
 @define-color slider_handle_disabled @slider_scale_disabled;
 
 /***************
@@ -136,7 +145,7 @@
 @define-color treeview_header_hover @btn_bg_hover;
 @define-color treeview_header_active @btn_bg_hover;
 @define-color treeview_header-disabled @btn_bg_disabled;
-@define-color treeview_bg #0a0b0d;
+@define-color treeview_bg #0f1012;
 @define-color treeview_tree #2c2e32;
 @define-color treeview_selected @menu_item_hover;
 @define-color treeview_disabled @btn_bg_disabled;

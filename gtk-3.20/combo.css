@@ -7,4 +7,53 @@ combobox arrow
         min-width: 16px;
     }
     
+.linked > button,
+.linked.vertical > button,
+.linked > combobox > box > button.combo:dir(ltr),
+.linked > combobox > box > button.combo:dir(rtl)
+    {
+        border: none;
+        padding: 3px 2px;
+        background-color: @combo_bg_normal;
+        color: @btn_text_normal;
+    }
+    
+.linked > button:hover,
+.linked.vertical > button:hover,
+.linked > combobox > box > button:hover.combo:dir(ltr),
+.linked > combobox > box > button:hover.combo:dir(rtl)
+    {
+        border: none;
+        background-color: @combo_bg_hover;
+        color: @btn_text_hover;        
+    }
+    
+.linked > button:active,
+.linked.vertical > button:active,
+.linked > combobox > box > button:active.combo:dir(ltr),
+.linked > combobox > box > button:active.combo:dir(rtl)
+    {
+        border: none;
+        background-color: @combo_bg_pressed;
+        color: @btn_text_pressed;
+    }
+    
+.linked > button:checked,
+.linked.vertical > button:checked,
+.linked > combobox > box > button:checked.combo:dir(ltr),
+.linked > combobox > box > button:checked.combo:dir(rtl)
+    {
+        border: none;
+        background-color: @combo_bg_toggled;
+        color: @btn_text_toggled;
+    }
 
+.linked > button:disabled,
+.linked.vertical > button:disabled,
+.linked > combobox > box > button:disabled.combo:dir(ltr),
+.linked > combobox > box > button:disabled.combo:dir(rtl)
+    {
+        border: none;
+        background-color: @combo_bg_disabled;
+        color: @btn_text_disabled;
+    }
