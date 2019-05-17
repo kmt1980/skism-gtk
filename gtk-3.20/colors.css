@@ -13,7 +13,9 @@
 @define-color text_dimmed #a6a6a6;
 @define-color text_focus #e6e6e6;
 @define-color text_hover #ffffff;
-@define-color text_disabled #767676;
+@define-color text_disabled #56585b;
+@define-color text_hero_normal #2cfab0;
+@define-color text_hero_active #70ffd5;
 
 @define-color border_normal #1e2024;
 @define-color border_focus #aaacb0;
@@ -35,8 +37,8 @@
  ******************/
 
 @define-color btn_bg_normal #282a2e;
-@define-color btn_bg_hover #18eda0;
-@define-color btn_bg_pressed #00b478;
+@define-color btn_bg_hover #00b478;
+@define-color btn_bg_pressed #00755c;
 @define-color btn_bg_toggled #00b478;
 @define-color btn_bg_toggledhover #18eda0;
 @define-color btn_bg_disabled #17181c;
@@ -55,7 +57,7 @@
 @define-color btn_mmc_bg_pressed rgba(255,255,255,0.24);
 
 @define-color btn_text_normal #d6d6d6;
-@define-color btn_text_hover #f6f6f6;
+@define-color btn_text_hover #ffffff;
 @define-color btn_text_pressed #ffffff;
 @define-color btn_text_toggled #ffffff;
 @define-color btn_text_disabled #767676;
@@ -74,7 +76,7 @@
  *****************/
 
 @define-color switch_base_off #1e2024;
-@define-color switch_base_on #18eda0;
+@define-color switch_base_on #00b478;
 @define-color switch_base_disabled #0f1014;
 @define-color slider_off #34363a;
 @define-color slider_on #ffffff;
@@ -114,6 +116,26 @@
 @define-color slider_handle_hover #70ffd5;
 @define-color slider_handle_active #70ffd5;
 @define-color slider_handle_disabled @slider_scale_disabled;
+
+/****************
+ * Spin Buttons *
+ ****************/
+
+@define-color spin_btn_normal transparent;
+@define-color spin_btn_hover transparent;
+@define-color spin_btn_active transparent;
+@define-color spin_btn_disabled transparent;
+
+@define-color spin_border_normal @border_normal;
+@define-color spin_border_focus @border_focus;
+@define-color spin_border_disabled @border_disabled;
+
+@define-color spin_ctl_normal #666666;
+@define-color spin_ctl_hover #d6d6d6;
+@define-color spin_ctl_active #ffffff;
+@define-color spin_ctl_disabled #36383b;
+
+@define-color spin_text #c6c6c6;
 
 /***************
  * Progressbar *

@@ -3,22 +3,21 @@
 button
     {
         margin-right: 1px;
-        padding: 4px 2px;
+        padding: 6px 4px;
         background-color: @btn_bg_normal;
-        border: 1px solid transparent;
+        border: none;
         color: @button_text_normal;
+        box-shadow: 0px 4px 2px rgba(0,0,0,.6);
     }
     
 button:hover
     {
-        background-color: @btn_bg_normal;
-        border: 1px solid @btn_bg_hover;
+        background-color: @btn_bg_hover;
         color: @btn_text_hover;
     }
     
 button:active
     {
-        border-color: @btn_bg_pressed;
         background-color: @btn_bg_pressed;
         color: @btn_text_pressed
     }

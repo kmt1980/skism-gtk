@@ -57,3 +57,33 @@ combobox arrow
         background-color: @combo_bg_disabled;
         color: @btn_text_disabled;
     }
+
+/* The following selectors isolate the button in combobox with an entry */
+entry.combo + button.combo 
+    { 
+        background-color: transparent;
+        border: 1px solid @border_normal;
+        box-shadow: none;
+        color: @text_dimmed;
+        margin: 0 5px;
+    }
+    
+entry.combo + button.combo:hover
+    {
+        color: @text_hover;
+    }
+    
+entry.combo + button.combo:checked
+    {
+        border-color: @border_focus;
+    }
+    
+entry.combo + button.combo:disabled
+    {
+        background-color: transparent;
+        border-color: @border_disabled;
+        color: @text_disabled;
+    }
+    
+    
+    
