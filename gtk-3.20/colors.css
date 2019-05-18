@@ -38,7 +38,7 @@
 
 @define-color btn_bg_normal #282a2e;
 @define-color btn_bg_hover #00b478;
-@define-color btn_bg_pressed #00755c;
+@define-color btn_bg_pressed #18eda0;
 @define-color btn_bg_toggled #00b478;
 @define-color btn_bg_toggledhover #18eda0;
 @define-color btn_bg_disabled #17181c;
@@ -50,6 +50,10 @@
 @define-color btn_header_bg_pressed @btn_bg_pressed;
 @define-color btn_header_bg_toggled @btn_bg_toggled;
 @define-color btn_header_bg_toggledhover @btn_bg_toggledhover;
+
+/* header page buttons */
+@define-color btn_page_normal #131415;
+@define-color btn_page_hover rgba(255,255,255,.12);
 
 /* Min, max and close window decoration colors */
 @define-color btn_mmc_bg_normal transparent;
@@ -67,7 +71,7 @@
  ****************/
 @define-color combo_bg_normal #282a2e;
 @define-color combo_bg_hover #00b478;
-@define-color combo_bg_pressed #00b478;
+@define-color combo_bg_pressed #18eda0;
 @define-color combo_bg_toggled #00b478;
 @define-color combo_bg_disabled #17181c;
 
