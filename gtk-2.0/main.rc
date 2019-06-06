@@ -1081,12 +1081,10 @@ style "entry" {
   }
 }
 
-style "notebook_entry" {
-
-  base[NORMAL] = "#101113"
+style "notebook_entry" {  
   
-  xthickness = 5
-  ythickness = 5
+  xthickness = 6
+  ythickness = 6
 
   engine "pixmap" {
 
@@ -1095,7 +1093,7 @@ style "notebook_entry" {
       state = NORMAL
       detail = "entry"
       file = "entry/entry-notebook.png"
-      border = {5, 5, 5, 5}
+      border = {6, 6, 6, 6}
       stretch = TRUE
     }
 
@@ -1104,7 +1102,7 @@ style "notebook_entry" {
       state = ACTIVE
       detail = "entry"
       file = "entry/entry-active-notebook.png"
-      border = {5, 5, 5, 5}
+      border = {6, 6, 6, 6}
       stretch = TRUE
     }
 
@@ -1113,7 +1111,7 @@ style "notebook_entry" {
       state = INSENSITIVE
       detail = "entry"
       file = "entry/entry-disabled-notebook.png"
-      border = {5, 5, 5, 5}
+      border = {6, 6, 6, 6}
       stretch = TRUE
     }
   }
@@ -1127,8 +1125,10 @@ style "notebook_tab_label" {
 
 style "combobox_entry"
 {
-  xthickness = 6
-  ythickness = 6
+  xthickness = 4
+  ythickness = 4
+  
+  
 
   engine "pixmap" {
 
@@ -1140,7 +1140,7 @@ style "combobox_entry"
       state = NORMAL
       shadow = IN
       file = "combo/combo-entry.png"
-      border = { 6, 6, 6, 6 }
+      border = { 4, 4, 4, 4 }
       stretch = TRUE
       direction = LTR
     }
@@ -1151,7 +1151,7 @@ style "combobox_entry"
       state = INSENSITIVE
       shadow = IN
       file = "combo/combo-entry-insensitive.png"
-      border = { 6, 6, 6, 6 }
+      border = { 4, 4, 4, 4 }
       stretch = TRUE
       direction = LTR
     }
@@ -1161,7 +1161,7 @@ style "combobox_entry"
       detail = "entry"
       state = ACTIVE
       file = "combo/combo-entry-focus.png"
-      border = { 6, 6, 6, 6 }
+      border = { 4, 4, 4, 4 }
       stretch = TRUE
       direction = LTR
     }
@@ -1174,7 +1174,7 @@ style "combobox_entry"
       state = NORMAL
       shadow = IN
       file = "combo/combo-entry-rtl.png"
-      border = { 6, 6, 6, 6 }
+      border = { 4, 4, 4, 4 }
       stretch = TRUE
       direction = RTL
     }
@@ -1185,7 +1185,7 @@ style "combobox_entry"
       state = INSENSITIVE
       shadow = IN
       file = "combo/combo-entry-insensitive-rtl.png"
-      border = { 6, 6, 6, 6 }
+      border = { 4, 4, 4, 4 }
       stretch = TRUE
       direction = RTL
     }
@@ -1195,7 +1195,7 @@ style "combobox_entry"
       detail = "entry"
       state = ACTIVE
       file = "combo/combo-entry-focus-rtl.png"
-      border = { 6, 6, 6, 6 }
+      border = { 4, 4, 4, 4 }
       stretch = TRUE
       direction = RTL
     }
@@ -1204,8 +1204,9 @@ style "combobox_entry"
 
 style "notebook_combobox_entry" {
 
-  xthickness = 5
-  ythickness = 5
+  xthickness = 4
+  ythickness = 4
+  
 
   engine "pixmap" {
 
@@ -1217,7 +1218,7 @@ style "notebook_combobox_entry" {
       state = NORMAL
       shadow = IN
       file = "combo/combo-entry-notebook.png"
-      border = { 5, 5, 5, 5 }
+      border = { 4, 4, 4, 4 }
       stretch = TRUE
       direction = LTR
     }
@@ -1228,7 +1229,7 @@ style "notebook_combobox_entry" {
       state = INSENSITIVE
       shadow = IN
       file = "combo/combo-entry-insensitive-notebook.png"
-      border = { 5, 5, 5, 5 }
+      border = { 4, 4, 4, 4 }
       stretch = TRUE
       direction = LTR
     }
@@ -1238,7 +1239,7 @@ style "notebook_combobox_entry" {
       detail = "entry"
       state = ACTIVE
       file = "combo/combo-entry-focus-notebook.png"
-      border = { 5, 5, 5, 5 }
+      border = { 4, 4, 4, 4 }
       stretch = TRUE
       direction = LTR
     }
@@ -1251,7 +1252,7 @@ style "notebook_combobox_entry" {
       state = NORMAL
       shadow = IN
       file = "combo/combo-entry-notebook-rtl.png"
-      border = { 5, 5, 5, 5 }
+      border = { 4, 4, 4, 4 }
       stretch = TRUE
       direction = RTL
     }
@@ -1262,7 +1263,7 @@ style "notebook_combobox_entry" {
       state = INSENSITIVE
       shadow = IN
       file = "combo/combo-entry-insensitive-notebook-rtl.png"
-      border = { 5, 5, 5, 5 }
+      border = { 4, 4, 4, 4 }
       stretch = TRUE
       direction = RTL
     }
@@ -1272,7 +1273,7 @@ style "notebook_combobox_entry" {
       detail = "entry"
       state = ACTIVE
       file = "combo/combo-entry-focus-notebook-rtl.png"
-      border = { 5, 5, 5, 5 }
+      border = { 4, 4, 4, 4 }
       stretch = TRUE
       direction = RTL
     }
@@ -1281,8 +1282,8 @@ style "notebook_combobox_entry" {
 
 style "combobox_entry_button"
 {
-  xthickness = 6
-  ythickness = 6
+  xthickness = 4
+  ythickness = 4
   
   #fg[ACTIVE] = @text_color
 
@@ -1294,7 +1295,7 @@ style "combobox_entry_button"
       function = BOX
       state = NORMAL
       file = "combo/combo-entry-button.png"
-      border = { 6, 6, 6, 6 }
+      border = { 4, 4, 4, 4 }
       stretch = TRUE
       direction = LTR
     }
@@ -1303,7 +1304,7 @@ style "combobox_entry_button"
       function = BOX
       state = PRELIGHT
       file = "combo/combo-entry-button.png"
-      border = { 6, 6, 6, 6 }
+      border = { 4, 4, 4, 4 }
       stretch = TRUE
       direction = LTR
     }
@@ -1312,7 +1313,7 @@ style "combobox_entry_button"
       function = BOX
       state = INSENSITIVE
       file = "combo/combo-entry-button-insensitive.png"
-      border = { 6, 6, 6, 6 }
+      border = { 4, 4, 4, 4 }
       stretch = TRUE
       direction = LTR
     }
@@ -1321,7 +1322,7 @@ style "combobox_entry_button"
       function = BOX
       state = ACTIVE
       file = "combo/combo-entry-button-active.png"
-      border = { 6, 6, 6, 6 }
+      border = { 4, 4, 4, 4 }
       stretch = TRUE
       direction = LTR
     }
@@ -1331,7 +1332,7 @@ style "combobox_entry_button"
       function = BOX
       state = NORMAL
       file = "combo/combo-entry-button-rtl.png"
-      border = { 6, 6, 6, 6 }
+      border = { 4, 4, 4, 4 }
       stretch = TRUE
       direction = RTL
     }
@@ -1340,7 +1341,7 @@ style "combobox_entry_button"
       function = BOX
       state = PRELIGHT
       file = "combo/combo-entry-button-rtl.png"
-      border = { 6, 6, 6, 6 }
+      border = { 4, 4, 4, 4 }
       stretch = TRUE
       direction = RTL
     }
@@ -1349,7 +1350,7 @@ style "combobox_entry_button"
       function = BOX
       state = INSENSITIVE
       file = "combo/combo-entry-button-insensitive-rtl.png"
-      border = { 6, 6, 6, 6 }
+      border = { 4, 4, 4, 4 }
       stretch = TRUE
       direction = RTL
     }
@@ -1358,7 +1359,7 @@ style "combobox_entry_button"
       function = BOX
       state = ACTIVE
       file = "combo/combo-entry-button-active-rtl.png"
-      border = { 6, 6, 6, 6 }
+      border = { 4, 4, 4, 4 }
       stretch = TRUE
       direction = RTL
     }
@@ -1826,16 +1827,16 @@ style "combobox_separator" {
 
 style "combobox" {
 
-  xthickness = 6
-  ythickness = 6
+  xthickness = 4
+  ythickness = 4
 
 }
 
 style "combobox_button" {
 
   
-  xthickness = 6
-  ythickness = 6
+  xthickness = 4
+  ythickness = 4
 
 }
 
@@ -2218,13 +2219,13 @@ style "inline_toolbar" {
 }
 
 style "notebook_viewport" {
-
+  
   bg[NORMAL] = @notebook_bg
 }
 
 
 style "notebook_eventbox" {
-
+  
   bg[NORMAL] = @notebook_bg
   bg[ACTIVE] = @bg_color
 }

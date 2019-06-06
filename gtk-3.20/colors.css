@@ -38,9 +38,9 @@
 
 @define-color btn_bg_normal #282a2e;
 @define-color btn_bg_hover #00b478;
-@define-color btn_bg_pressed #18eda0;
+@define-color btn_bg_pressed #14d296;
 @define-color btn_bg_toggled #00b478;
-@define-color btn_bg_toggledhover #18eda0;
+@define-color btn_bg_toggledhover #14d296;
 @define-color btn_bg_disabled #17181c;
 
 @define-color btnflat_bg_normal @btn_bg_normal;
@@ -71,7 +71,7 @@
  ****************/
 @define-color combo_bg_normal #282a2e;
 @define-color combo_bg_hover #00b478;
-@define-color combo_bg_pressed #18eda0;
+@define-color combo_bg_pressed #14d296;
 @define-color combo_bg_toggled #00b478;
 @define-color combo_bg_disabled #17181c;
 
