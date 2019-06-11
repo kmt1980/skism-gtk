@@ -64,7 +64,43 @@ notebook > header > tabs > arrow:hover
     {
         background-color: @btn_page_hover;
     }
+    
+    
+button.flat 
+    { 
+        background-color: transparent;
+        color: @button_text_normal;
+    }
+    
+button.flat:hover
+    { 
+        background-color: rgba(255,255,255,.05);
+        color: @btn_text_hover;
+    }
+    
+button.flat:active
+    { 
+        background-color: rgba(255,255,255,.15);
+        color: @btn_text_pressed;
+    }
 
+button.flat:checked
+    { 
+        background-color: @btn_bg_toggled;
+        color: @btn_text_toggled;
+    }
+    
+button.flat:checked:hover
+    { 
+        background-color: @btn_bg_toggledhover;
+        color: @btn_text_toggled;
+    }
+    
+button.flat:checked:disabled
+    { 
+        background-color: @btn_bg_disabled;
+        color: @btn_text_disabled;
+    }
 
 
 
