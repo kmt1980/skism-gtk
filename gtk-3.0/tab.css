@@ -86,9 +86,5 @@ header.right tab:checked:hover
     }
     
     
-notebook > stack:not(:only-child)
-    {
-        border: 1px solid @tab_view_border;
-        background-color: @tab_view_bg;
-    }
+
     

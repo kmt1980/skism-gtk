@@ -176,4 +176,15 @@
 @define-color treeview_selected @menu_item_hover;
 @define-color treeview_disabled @btn_bg_disabled;
 
+/************
+ * Calendar *
+ ************/
+
+@define-color cal_text_normal #d6d6d6;
+@define-color cal_text_selected #70ffd5;
+@define-color cal_text_indeterminate #26282a;
+@define-color cal_text_header #ffffff;
+@define-color cal_header_bg #00a078;
+@define-color cal_btn_hover rgba(0,0,0,.15);
+
 

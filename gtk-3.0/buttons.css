@@ -3,7 +3,7 @@
 button
     {
         margin-right: 1px;
-        padding: 6px 4px;
+        padding: 6px 8px;
         background-color: @btn_bg_normal;
         border: none;
         color: @button_text_normal;
@@ -66,41 +66,61 @@ notebook > header > tabs > arrow:hover
     }
     
     
-button.flat 
+button.flat,
+.stack-switcher > button.image-button
     { 
         background-color: transparent;
         color: @button_text_normal;
+        padding: 5px;
     }
     
-button.flat:hover
+button.flat:hover,
+.stack-switcher > button.image-button:hover
     { 
         background-color: rgba(255,255,255,.05);
         color: @btn_text_hover;
     }
     
-button.flat:active
+button.flat:active,
+.stack-switcher > button.image-button:active
     { 
         background-color: rgba(255,255,255,.15);
         color: @btn_text_pressed;
     }
 
-button.flat:checked
+button.flat:checked,
+.stack-switcher > button.image-button:checked
     { 
         background-color: @btn_bg_toggled;
         color: @btn_text_toggled;
     }
     
-button.flat:checked:hover
+button.flat:checked:hover,
+.stack-switcher > button.image-button:checked:hover
     { 
         background-color: @btn_bg_toggledhover;
         color: @btn_text_toggled;
     }
     
-button.flat:checked:disabled
+button.flat:checked:disabled,
+.stack-switcher > button.image-button:disabled
     { 
         background-color: @btn_bg_disabled;
         color: @btn_text_disabled;
     }
+
+button.destructive-action 
+    { 
+        background-color: @error_bg_main; 
+        font-weight: bold;
+    }
+    
+button.destructive-action:hover 
+    { 
+        background-color: #ff4664; 
+    }
+    
+
 
 
 

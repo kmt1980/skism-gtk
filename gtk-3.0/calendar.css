@@ -1,0 +1,47 @@
+@import url("colors.css");
+
+calendar 
+    {
+        color: @cal_text_normal;
+        border: 1px solid @border_normal; 
+    }
+    
+calendar:selected 
+    {
+        color: @cal_text_selected;
+        
+    }
+  
+calendar.header 
+    {
+        background-color: @cal_header_bg;
+        color: @cal_text_header;
+    }  
+  
+calendar.button 
+    {
+        color: @cal_text_header; 
+    }
+    
+calendar.button:hover 
+    {
+        background-color: @cal_btn_hover; 
+    }
+    
+calendar.button:disabled 
+    {
+        color: rgba(140, 142, 146, 0.45); 
+    }
+  
+calendar:indeterminate 
+    {
+        color: @cal_text_indeterminate; 
+    }
+
+calendar.highlight     
+    {
+        font-size: smaller;
+         
+    }
+  
+

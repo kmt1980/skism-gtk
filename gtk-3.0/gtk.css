@@ -14,6 +14,8 @@
 @import url("treeview.css");
 @import url("frame.css");
 @import url("spin.css");
+@import url("notebook.css");
+@import url("calendar.css");
 
 *
     {
